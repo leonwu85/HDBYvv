@@ -85,6 +85,20 @@ HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器
 - 直播平台可能调整接口、签名或风控策略，导致分类、取流、弹幕或关注功能临时不可用。
 - Android Automotive 的系统级行驶限制和厂商特殊屏幕等限制。
 
+## 应用截图
+
+![发现与分类浏览](features/01-home.png)
+![跨平台搜索](features/03-search.png)
+![观看历史](features/20-history.png)
+![播放控制](features/13-player-controls.png)
+![画质选择](features/14-player-quality.png)
+![播放列表与选台](features/16-player-queue.png)
+![播放器弹幕设置](features/17-player-danmu-settings.png)
+![实时弹幕分屏](features/18-player-danmu-split.png)
+![全局弹幕与即时预览](features/07-danmu-preview.png)
+![电视端直播推送](features/09-push-tv.png)
+![手机推送网页](features/21-push-mobile.png)
+
 ## 声明
 
 本工程只根据协议与交互研究结果重新实现。项目仅供技术研究，请勿用于商业用途，也请遵守所在地区法律法规及各直播平台服务条款。
