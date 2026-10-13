@@ -1,11 +1,13 @@
-<div align="center">
-  <img src="logo_hdbyvv.png" width="360" alt="HDBYvv">
-  <p>支持手机、平板、Android TV 与 Android 车机的直播聚合客户端</p>
+<div align="center">  
+  <p>支持手机、平板、Android TV 与 Android 车机的直播聚合（虎牙、斗鱼、Bilibili、抖音、YY）客户端</p>
 </div>
+
+![Dark Mode Logo](logo_hdbyvv.png#gh-dark-mode-only)
+![Light Mode Logo](logo_hdbyvv_light.png#gh-light-mode-only)
 
 HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器和不同窗口尺寸，将直播发现、播放、弹幕、关注、收藏与历史记录集中到一个应用中。
 
-> 当前版本：`0.7.5` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机
+> 当前版本：`0.7.8` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机
 >
 > 本项目基于既有客户端的协议与交互研究重新实现，仅用于技术研究。
 
