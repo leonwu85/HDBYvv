@@ -1,5 +1,5 @@
 <div align="center">  
-  <p>支持手机、平板、Android TV 与 Android 车机的直播聚合（虎牙、斗鱼、Bilibili、抖音、YY）客户端</p>
+  <p>支持手机、平板、Android TV 与 Android 车机的直播聚合（虎牙、斗鱼、Bilibili、抖音、YY、IPTV）客户端</p>
 </div>
 
 ![Dark Mode Logo](logo_hdbyvv.png#gh-dark-mode-only)
@@ -7,7 +7,7 @@
 
 HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器和不同窗口尺寸，将直播发现、播放、弹幕、关注、收藏与历史记录集中到一个应用中。
 
-> 当前版本：`0.8.1` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机
+> 当前版本：`0.8.4` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机
 >
 > 本项目基于既有客户端的协议与交互研究重新实现，仅用于技术研究。
 
@@ -15,7 +15,7 @@ HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器
 
 ### 直播发现
 
-- 在一个入口中浏览 5 个已接入直播平台，支持平台切换、一级分类、细分分类与分页加载。
+- 在一个入口中浏览 7 个已接入直播平台，支持平台切换、一级分类、细分分类与分页加载。
 - 自适应 16:9 直播卡片（电视保持四列，触控设备按窗口宽度与字体大小调整列数），展示直播状态、标题、主播、分区与热度。
 - 支持刷新关注和观看历史中的开播状态；请求失败时保留“检查中 / 未知”状态，不误报未开播。
 
@@ -75,6 +75,7 @@ HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器
 | 斗鱼 | ✅ | ✅ | ✅ | — |
 | YY | ✅ | — | — | — |
 | 快手 / Twitch | 暂未接入 | — | — | — |
+| IPTV | ✅ | - | ✅ | — |
 | 🔞 | ✅ | ✅ | ✅ | — |
 
 ## 隐私与安全
@@ -84,7 +85,7 @@ HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器
 
 ## 已知限制
 
-- 暂不包含 DLNA 投屏、IPTV / TVBOX、X5 网页直播、自更新和扫码登录。
+- 暂不包含 DLNA 投屏、X5 网页直播、自更新和扫码登录。
 - 直播平台可能调整接口、签名或风控策略，导致分类、取流、弹幕或关注功能临时不可用。
 - Android Automotive 的系统级行驶限制和厂商特殊屏幕等限制。
 
