@@ -7,7 +7,7 @@
 
 HDBYvv 使用 Kotlin 与 Jetpack Compose 原生实现，支持触控、遥控器和不同窗口尺寸，将直播发现、点播、IPTV、WebDAV 文件、弹幕、关注、收藏与历史记录集中到一个应用中。
 
-> 当前版本：`0.9.5` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机 · 项目仅用于技术研究。
+> 当前版本：`0.9.6` · 最低 Android 6.0（API 23）· 手机 / 平板 / Android TV / Android 车机 · 项目仅用于技术研究。
 >
 > 本项目基于既有客户端的协议与交互研究重新实现，仅用于技术研究。
 
